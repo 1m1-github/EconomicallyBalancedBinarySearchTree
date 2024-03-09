@@ -5,7 +5,7 @@ pragma solidity ^0.8.18;
  * UNTESTED
  * @title BinarySearchTree: Library for log cost ordering with economic height rebalancing
  * trying to minimizes code length whilst being understand and correct
- * all half precision: 1 bit used to denote leaf node (anything larger than type(uint256).max/2)
+ * all half precision: 1 bit used to denote leaf node (equal to type(uint256).max)
  * 0 is the absolute root
  */
 library BinarySearchTree {
